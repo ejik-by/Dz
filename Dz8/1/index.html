@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+<h1 class="text-center">To-Do application</h1>
+
+<div class="container">
+    <div class="row g-3">
+        <div class="col-8">
+            <!--                <label for="inputTask" class="visually-hidden">Task</label>-->
+            <input type="text" class="form-control" id="inputTask" placeholder="Input task">
+        </div>
+        <button class="btn btn-primary col-4" id="btn-add">Add task</button>
+    </div>
+
+    <ul class="row g-3" id="list">
+        <li>Task1 <span>Delete</span></li>
+        <li>Task2 <span>Delete</span></li>
+        <li>Task3 <span>Delete</span></li>
+    </ul>
+    <button class="btn btn-primary col-4" id="btn-save">Save task</button>
+    <button class="btn btn-primary col-4" id="btn-clear">Clear task</button>
+    <button class="btn btn-primary col-4" id="btn-infoRab">Информация о себе</button>
+    <div class="task">
+        <div class="activ">Выполненные задачи: <span></span></div>
+        <div class="notactiv">Не выполненные задачи: <span></span></div>
+    </div>
+</div>
+
+<script src="./script/Dz8.js"></script>
+</body>
+
+</html>
