@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    var surname;
+    var name;
+    var patronymic;
+    var age;
+    var gender;
+    var sex;
+    var isPensioner;
+    var age5;
+    var ageDay;
+    var isError;
+
+    do {
+        isError = false;
+        surname = prompt("Введите вашу фамилию");
+        if (surname === "" || surname === null)
+            isError = true;
+        }
+        while (isError === true)
+
+
+    do {
+        isError = false;
+        name = prompt("Ведите ваше имя");
+        if (name === "" || name === null)
+            isError = true;
+        }
+        while (isError === true)
+
+    do {
+        isError = false;
+        patronymic = prompt("Введите ваше отчество");
+        if (patronymic === "" || patronymic === null)
+            isError = true;
+        }
+        while (isError === true)
+
+    do  {
+        isError = false;
+        age = prompt("Ваш возраст?");
+        if (age === "" || age === null)
+            isError = true;
+        }
+        while (isError === true)
+
+        age = parseInt(age, 10);
+
+    do {
+        isError = false;
+        gender = confirm("Ваш пол мужской?");
+        if (gender === "" || gender === null)
+            isError = true;
+        }
+        while (isError === true)
+
+
+        isPensioner = "";
+
+        age5 = (age + 5);
+
+        ageDay = (age * 365);
+
+
+
+
+
+        if (gender === false) {
+            sex = 'Женский';
+            if (age < 58) {
+                isPensioner = 'не на пенсии';
+            } else {
+                isPensioner = 'на пенсии';
+            }
+        }
+        if (gender === true) {
+            sex = 'Мужской';
+            if (age < 63) {
+                isPensioner = 'не на пенсии';
+            } else {
+                isPensioner = 'на пенсии';
+            }
+        }
+
+        alert(" Ваше ФИО: " + surname + " " + name + " " + patronymic + " \n Ваш возраст: " + age + "\n Ваш возраст в днях: " + ageDay + "\n Через 5 лет вам будет: " + age5 + " \n Ваш пол: " + sex + "\n Вы на пенсии:" + isPensioner + "");
+
+
+</script>
+</body>
+</html>
