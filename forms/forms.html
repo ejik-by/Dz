@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div>
+    <pre>Task 1. Для всех input необходимо реализовать так, чтобы они выводили свой value алертом при нажатии на любой из них,
+        но только по первому нажатию. Повторное нажатие на input не должно вызывать реакции.</pre>
+    <input class="text" type="text" value="hello">
+    <input class="number" type="number" value="1">
+    <input class="email" type="email" value="test@email.com">
+</div>
+
+
+<pre>Task2. Привяжите всем input следующее событие - по потери фокуса каждый input выводит свое value в абзац с текстом "Вы ввели (такой-то текст)...".</pre>
+
+<input id="textTwo" type="text" placeholder="Введите имя">
+<input id="emailTwo" type="email" placeholder="Введите email">
+
+
+<pre>Task3.  Дана форма с id="sum-form". В ней даны инпуты, в них числа.
+    Дана кнопка. По нажатию на эту кнопку получите форму по ее id, затем циклом переберите все инпуты в ней и найдите сумму чисел из этих input.</pre>
+
+<div class="row">
+    <div class="col s6 m4">
+        <form id="sum-form">
+            <input type="number" value="1">
+            <input type="number" value="3">
+            <input type="number" value="4">
+            <input type="number" value="2">
+            <input type="number" value="11">
+            <button id="btn" type="button">Рассчитать сумму</button>
+        </form>
+    </div>
+</div>
+
+<pre>Task4. Дан селект. Дан input. По изменению селекта выведите текст выбранного пункта в инпут.</pre>
+
+
+<select id="sel">
+    <option value="1">
+        Мишки
+    </option>
+    <option value="2">
+        Моль
+    </option>
+    <option value="3">
+        Кермит
+    </option>
+    <option value="4">
+        Кити
+    </option>
+</select>
+
+
+<input  id="inp" type="text" value="Мишки">
+
+</body>
+<script src="forms.js"></script>
+</html>
