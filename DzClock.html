@@ -19,7 +19,6 @@
         var dg = (i * 30) * 3.14 / 180;
         var x = 240 + Math.sin(dg) * gip;
         var y = 260 - Math.cos(dg) * gip
-        // console.log(x,y);
         svg.circle({cx: 10 + x, cy: -8 + y, r: 40, fill: 'green'})
         text = svg.text({
             x: x, y: y,
