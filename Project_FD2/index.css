@@ -1,0 +1,917 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border: solid red 1px;*/
+
+}
+
+.header {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-around;
+    padding-top: 3px;
+    width: 1160px;
+    height: 52px;
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.menu {
+    height: 20px;
+
+}
+
+.menuLi {
+
+    display: flex;
+    flex-basis: 500px;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+li {
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    /*border: solid red 1px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.cont {
+    border: solid lightgray 1px;
+    height: 220px;
+    width: 1160px;
+    display: flex;
+    flex-basis: auto;
+    background-image: url("image/form_fon.jpeg");
+
+}
+
+
+.content1 {
+    /*border: solid black 1px;*/
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.content1_1 {
+    border: solid lightgray 1px;
+    display: flex;
+    flex-basis: auto;
+    height: 221px;
+    width: 560px;
+    background-image: url("image/form_fon.jpeg");
+
+}
+
+.content1_2 {
+    border: solid lightgray 1px;
+    display: flex;
+    flex-basis: auto;
+    margin-left: 40px;
+    height: 221px;
+    width: 560px;
+    background-image: url("image/form_fon.jpeg");
+
+}
+
+.text {
+    /*display: flex;*/
+    display: block;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.h5 {
+    opacity: 0.3;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto Thin', sans-serif;
+}
+
+p {
+    /*margin-left: 8px;*/
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: #595CFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bt {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.carousel {
+    width: auto;
+    height: 150px;
+}
+
+.picture {
+    /*border: solid red 2px;*/
+    width: 170px;
+    height: 170px;
+    margin-top: 8px;
+    margin-left: 170px;
+
+
+}
+
+.zaglushka {
+    /*border: solid gray 2px;*/
+    width: 180px;
+    height: 180px;
+    opacity: 0.1;
+}
+
+.content2 {
+    height: 50px;
+    width: 1160px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content2_1 {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+
+.content2_3 {
+    margin-right: 25px;
+    font-size: 150%;
+}
+
+.pointerLeft {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.pointerLeft1 {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.pointerRight1 {
+    cursor: pointer;
+}
+
+.pointerRight {
+    cursor: pointer;
+}
+
+.content3lift {
+    width: 1162px;
+    overflow-x: hidden;
+    margin-left: 80px;
+    margin: auto;
+
+
+}
+
+.content3motoboots {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+    height: 315px;
+    margin: auto;
+
+}
+
+.content3helmet {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-between;
+    width: 1166px;
+    height: 315px;
+    margin: auto;
+}
+
+.content3_1 {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.content3_2 {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+.basement {
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-around;
+    width: auto;
+    height: 250px;
+    background-color: lightgray;
+    margin-top: 60px;
+
+}
+
+.basement1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 48px;
+    /*border: solid red 2px;*/
+
+}
+
+.basement2 {
+    width: 200px;
+    height: 200px;
+    /*border: solid red 2px;*/
+}
+
+.basement3 {
+    width: 200px;
+    height: 200px;
+    /*border: solid red 2px;*/
+}
+
+.basement4 {
+    width: 200px;
+    height: 200px;
+    /*border: solid red 2px;*/
+}
+
+.basementLi {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 48px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact {
+    margin: 10px;
+    margin-left: 0;
+}
+
+.tel {
+
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.copy {
+    width: auto;
+    height: 55px;
+    padding-top: 15px;
+    padding-left: 60px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.cp {
+    width: 90%;
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+.detailedContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.detailedContent1 {
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    background-color: lightgray;
+}
+
+.detailedContent1 img {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: solid lightgray 1px;
+}
+
+span.sum {
+
+    margin: 15px;
+}
+
+form input {
+    font-size: 150%;
+
+}
+
+button.submit {
+    width: 165px;
+    height: 50px;
+    background-color: #595CFF;
+    border: none;
+    border-radius: 6px;
+    margin-top: 0px;
+
+}
+
+button.edit {
+    width: 165px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: #71b02f;
+    margin-top: 0px;
+    margin-left: 35px;
+
+}
+
+input[type="radio"] {
+    width: 40px;
+    height: 40px;
+    border-width: 25px;
+    cursor: pointer;
+}
+
+
+.detailedContent2 {
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.count {
+    margin-top: 25px;
+}
+
+.send {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.sendVar {
+    margin-left: auto;
+
+}
+
+.forma1.inp1 {
+
+}
+
+.select {
+    width: 350px;
+    margin: 15px 15px 15px 0;
+    border: none;
+    border-bottom: solid lightgray 0.5px;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.selectBoxSize {
+    width: 60px;
+    height: 25px;
+    border: none;
+    margin-left: 17px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.forma {
+    margin-top: 25px;
+}
+
+span.forma1 {
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    padding-bottom: 25px;
+    font-size: 19px;
+}
+
+.checkOut {
+    width: 900px;
+    height: 500px;
+    margin: 40px auto auto auto;
+    display: flex;
+    font-family: 'Roboto Thin', sans-serif;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.checkOut1 {
+    width: 410px;
+    height: 410px;
+    margin: auto 40px auto auto;
+    border: solid white 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.checkOut1 img {
+    width: auto;
+    height: 400px;
+    margin-left: 10px;
+}
+
+img.plus {
+    width: 25px;
+    height: 25px;
+    border: solid green 1px;
+    border-radius: 20px;
+}
+
+img.minus {
+    width: 25px;
+    height: 25px;
+    border: solid red 1px;
+    border-radius: 20px;
+}
+
+.checkOut2 {
+    /*display: flex;*/
+    justify-content: space-around;
+    width: 400px;
+    height: 470px;
+    margin: auto;
+    /*border: solid red 1px;*/
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+.checkOutCounter {
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 250px;
+    /*border: solid red 1px;*/
+}
+
+.vesZakazText {
+    width: auto;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 14px;
+    /*border: solid red 1px;*/
+}
+
+.selectBox {
+    width: 150px;
+    height: 25px;
+    border: none;
+    margin-left: 9px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*.checkOutFotoCounter {*/
+/*    width: 55px;*/
+/*    !*display: flex;*!*/
+/*    !*justify-content: left;*!*/
+/*    !*margin-left: 50px;*!*/
+/*    !*margin-top: 10px;*!*/
+/*    border: solid red 1px;*/
+
+/*}*/
+.checkOutSum {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+/*.checkOutCounterPrice {*/
+/*    margin-left: 77px;*/
+/*}*/
+
+.textPrice {
+    height: 40px;
+    /*border: solid red 1px;*/
+    margin: 5px 5px 37px 15px;
+    clear: both;
+}
+
+.textPrice1 {
+    height: 40px;
+    /*border: solid red 1px;*/
+    margin: 10px 5px 25px 15px;
+    clear: both;
+
+}
+
+.textPrice2 {
+    height: 40px;
+    /*border: solid red 1px;*/
+    margin: 10px 5px 25px 15px;
+}
+
+.textPrice3 {
+    height: 40px;
+    /*border: solid red 1px;*/
+    margin: 10px 5px 25px 15px;
+}
+
+
+.PriceSp {
+    /*border: solid red 1px;*/
+    margin-right: 10px;
+    float: right;
+}
+
+.PriceSp1 {
+    /*border: solid red 1px;*/
+    margin-right: 10px;
+    float: right;
+
+}
+
+.PriceSp2 {
+    /*border: solid red 1px;*/
+    margin-left: 270px;
+}
+
+.motoboots {
+    width: 260px;
+    height: 260px;
+    border: solid lightgray 1px;
+}
+
+.jersy {
+    width: 260px;
+    height: 260px;
+    border: solid lightgray 1px;
+}
+
+.kneecap {
+    width: 260px;
+    height: 260px;
+    border: solid lightgray 1px;
+}
+
+.armor {
+    width: 260px;
+    height: 260px;
+    border: solid lightgray 1px;
+}
+
+.helmet {
+    width: 260px;
+    height: 260px;
+    border: solid lightgray 1px;
+    cursor: pointer;
+}
+
+.bt {
+    height: 30px;
+    width: 80px;
+    margin-top: 50px;
+    /*font-family: 'Inter', sans-serif;*/
+    font-size: 15px;
+    background-color: #595CFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.searchBoxNone {
+    display: none;
+
+
+}
+
+.searchBoxBlock {
+    width: 500px;
+    height: 350px;
+    background-image: url("image/fon1.jpg");;
+    left: 180mm;
+    display: block;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 10;
+}
+
+.inputData {
+    width: 456px;
+    height: 15px;
+    position: fixed;
+
+}
+
+.closeSearch {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    margin-left: 462px;
+}
+
+.searchContent {
+    overflow: auto;
+    color: white;
+    padding-left: 5px;
+}
+
+.searchContent a {
+    color: white;
+}
+
+.contHel {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin: 50px 20px 50px 20px;
+}
+
+.contBoot {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin: 50px 20px 50px 20px;
+}
+
+.contJersy {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin: 50px 20px 50px 20px;
+}
+
+.contKneecap {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin: 50px 20px 50px 20px;
+}
+
+.contArmor {
+    width: 260px;
+    height: 260px;
+    background-color: lightgray;
+    margin: 50px 20px 50px 20px;
+}
+
+.basementLi li:hover {
+    transform: scale(1.6);
+    transition: 1s;
+    transform-origin: center;
+}
+
+.form {
+    color: white;
+    visibility: hidden;
+    width: 150px;
+    height: 220px;
+    position: fixed;
+    left: 225px;
+    top: 50px;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #ff6f00;
+
+}
+
+.openForm img {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.contactForm {
+    width: 400px;
+    height: auto;
+    padding: 50px 30px 50px 100px;
+    border: solid #42a2ce 5px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+
+.newP {
+    color: red;
+}
+
+.formEdit {
+    width: 400px;
+    height: auto;
+    padding: 50px 30px 50px 100px;
+    border: solid green 5px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+
+.formGoToHome {
+    width: 520px;
+    height: auto;
+    padding: 50px 30px 50px 50px;
+    border: solid orange 5px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.formGoToHomeText {
+    font-size: 25px;
+    text-align: center;
+}
+.goToHome{
+    width: 440px;
+    height: 55px;
+    margin: 15px 5px 5px 40px;
+    font-size: 120%;
+    font-family: 'Inter', sans-serif;
+    border: solid orange 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+fieldset {
+    border: solid #42a2ce 3px;
+    padding: 10px;
+}
+
+fieldset input {
+    background-color: white;
+    border: solid #42a2ce 1px;
+    border-radius: 2px;
+}
+
+.formEditSelect {
+    background-color: white;
+    border: solid #42a2ce 1px;
+    border-radius: 2px;
+    width: 312px;
+    height: 30px;
+    font-size: 23px;
+}
+
+.formEditSelectColor {
+    background-color: white;
+    border: solid #42a2ce 1px;
+    border-radius: 2px;
+    width: 312px;
+    height: 30px;
+    font-size: 23px;
+}
+
+.formEditSelectType {
+    background-color: white;
+    border: solid #42a2ce 1px;
+    border-radius: 2px;
+    width: 312px;
+    height: 30px;
+    font-size: 23px;
+}
+
+.formEditSelectModel {
+    background-color: white;
+    border: solid #42a2ce 1px;
+    border-radius: 2px;
+    width: 312px;
+    height: 30px;
+    font-size: 23px;
+}
+
+.inpNumber {
+    background-color: white;
+    border: solid #42a2ce 1px;
+    border-radius: 2px;
+    width: 306px;
+    height: 27px;
+    font-size: 23px;
+    padding-left: 4px;
+}
+
+.bx-wrapper img {
+    height: 160px;
+}
+
+.bx-wrapper {
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+input.contactSubmit1 {
+    width: 110px;
+    height: auto;
+    margin: 15px 5px 5px 25px;
+    font-size: 120%;
+
+}
+
+input.contactSubmit2 {
+    width: 110px;
+    height: auto;
+    margin: 15px 5px 5px 40px;
+    font-size: 120%;
+
+}
+
+input.editSubmit1 {
+    width: 110px;
+    height: auto;
+    margin: 15px 5px 5px 25px;
+    font-size: 120%;
+
+}
+
+input.editSubmit2 {
+    width: 110px;
+    height: auto;
+    margin: 15px 5px 5px 40px;
+    font-size: 120%;
+
+}
+
+.zorka {
+    color: red;
+    font-size: 10px;
+}
+
+.contactLegend {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.basement {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.copy {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.strelkaBack {
+    color: #006699;
+    width: 5px;
+    height: 5px;
+    font-size: 180%;
+}
+
+@media all and (max-width: 600px) {
+    * {
+        margin: 0 auto;
+    }
+
+    .basement {
+        width: auto;
+    }
+
+    .copy {
+        width: auto;
+    }
+
+}
