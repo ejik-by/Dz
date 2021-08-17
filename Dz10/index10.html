@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style10.css">
+</head>
+
+<body>
+        <form action="" name="myForm">
+                <label><span class="inputLable">Разработчик:</span><input class="dev" type="text" size="50"
+                                required></label><br>
+                <label><span class="inputLable">Название сайта:</span><input class="siteName" type="text" size="50"
+                                required></label><br>
+                <label><span class="inputLable">URL сайта</span><input class="urlStyle" type="url" size="50"
+                                required></label><br>
+                <label><span class="inputLable">Дата запуска сайта:</span><input class="date" type="datetime-local"
+                                required></label><br>
+                <label><span class="inputLable">Посетителей в сутки:</span><input class="visit" type="number" width="50"
+                                required></label><br>
+                <label><span class="inputLable">E-mail для связи:</span><input class="mail" type="email" size="50"
+                                required></label><br>
+                <label><span class="inputLable">Рубрика каталога:</span><select class="catalog" required>
+                                <option disabled selected></option>
+                                <option value="1">Здоровье</option>
+                                <option value="2">Домашний уют</option>
+                                <option value="3">Бытовая техника</option>
+                        </select></label><br>
+                <p class="inputLable">Размещение:</p>
+                <span class="placing">
+                        <label for="">Бесплатное<input class="place" type="radio" name="radioElem" value="1"
+                                        required></label>
+                        <label for="">Платное<input class="place" type="radio" name="radioElem" value="2"
+                                        required></label>
+                        <label for="">VIP<input class="place" type="radio" name="radioElem" value="3" required></label>
+                </span><br>
+                <label><span class="inputLable">Разрешить отзывы:</span><input type="checkbox" checked></label><br>
+                <label><span class="inputLable">Описание сайта:</span>
+                        <br>
+                        <textarea cols="74" rows="5" class="area" required></textarea>
+                </label><br>
+                <button type="submit" class="btn">Отправить</button>
+        </form>
+
+
+        <script src="script10.js"></script>
+</body>
+
+</html>
